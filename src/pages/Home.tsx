@@ -70,7 +70,7 @@ const Home = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 bg-hero-gradient text-white">
+      <section className="py-16 bg-hero-gradient text-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
