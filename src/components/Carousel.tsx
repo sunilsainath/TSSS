@@ -4,13 +4,13 @@ import { Button } from '@/components/ui/button';
 
 // Import all carousel images
 import FirstMeetUP from '@/assets/TSSS_teamgathering.jpg';
-import educationSupport1 from '@/assets/10thClassAppriceation.jpeg';
-import templeEvent1 from '@/assets/Devotional.jpeg';
-import communityService1 from '@/assets/fooddonation.jpeg';
-import medicalCamp1 from '@/assets/BloodD.jpeg';
-import educationSupport2 from '@/assets/pen.jpeg';
-import spiritualEvent1 from '@/assets/Kondagattugiripradaskshana.jpeg';
-import bloodAwareness1 from '@/assets/TSSS_Song_Release.jpeg';
+import educationSupport1 from '@/assets/TSSS_teamgathering.jpg';
+import templeEvent1 from '@/assets/TSSS_teamgathering.jpg';
+import communityService1 from '@/assets/TSSS_teamgathering.jpg';
+import medicalCamp1 from '@/assets/TSSS_teamgathering.jpg';
+import educationSupport2 from '@/assets/TSSS_teamgathering.jpg';
+import spiritualEvent1 from '@/assets/TSSS_teamgathering.jpg';
+import bloodAwareness1 from '@/assets/TSSS_teamgathering.jpg';
 
 const carouselImages = [
   { src: FirstMeetUP, alt: 'Telangana Srinivasula Seva Samstha First Anniversary', title: 'TSSS 1st Anniversary' },
