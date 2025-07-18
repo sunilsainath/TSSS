@@ -81,7 +81,7 @@ const Home = () => {
               continue our mission of serving humanity with love and compassion.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" variant="secondary">
+              <Button asChild size="lg" variant="secondary" className="bg-black/20 border-white text-white hover:bg-black/40 hover:text-primary">
                 <Link to="/contact">Get Involved</Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="bg-black/20 border-white text-white hover:bg-black/40 hover:text-primary">
