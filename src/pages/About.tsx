@@ -108,7 +108,7 @@ const About = () => {
         <section>
           <h2 className="text-3xl font-bold text-center text-foreground mb-12">Our Leadership</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="animate-fade-in">
+            <Card className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <CardContent className="p-6 text-center">
                 <div className="w-24 h-24 bg-accent rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Users className="h-12 w-12 text-accent-foreground" />
