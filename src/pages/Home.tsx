@@ -84,7 +84,7 @@ const Home = () => {
               <Button asChild size="lg" variant="secondary">
                 <Link to="/contact">Get Involved</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="bg-white/10 border-white text-white hover:bg-white hover:text-primary">
+              <Button asChild size="lg" variant="outline" className="bg-black/20 border-white text-white hover:bg-black/40 hover:text-primary">
                 <Link to="/donate">Make a Donation</Link>
               </Button>
             </div>
