@@ -1,0 +1,21 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --footer-background: 0 0% 0%;
+    --footer-foreground: 0 0% 100%;
+  }
+}
+
+@layer utilities {
+  .bg-footer {
+    background-color: hsl(var(--footer-background)) !important;
+  }
+
+  .text-footer {
+    color: hsl(var(--footer-foreground)) !important;
+  }
+}
