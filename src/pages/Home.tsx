@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Droplets, GraduationCap, Heart } from 'lucide-react';
 import Carousel from '@/components/Carousel';
 import FeatureCard from '@/components/FeatureCard';
@@ -5,6 +6,11 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+  useEffect(() => {
+    // Scroll to the top when this component is rendered
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen">
       {/* Hero Carousel Section */}
