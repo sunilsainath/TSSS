@@ -107,7 +107,7 @@ const About = () => {
         {/* Team Section */}
         <section>
           <h2 className="text-3xl font-bold text-center text-foreground mb-12">Our Leadership</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="w-full flex justify-center">
             <Card className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <CardContent className="p-6 text-center">
                 <div className="w-24 h-24 bg-accent rounded-full mx-auto mb-4 flex items-center justify-center">
