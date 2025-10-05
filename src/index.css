@@ -5,17 +5,46 @@
 
 @layer base {
   :root {
-    --footer-background: 0 0% 0%;
-    --footer-foreground: 0 0% 100%;
+    /* Dark background for navbar and footer */
+    --primary-bg: 20 20% 20%; /* HSL: dark gray-blue */
+    --footer-background: 0 0% 10%; 
+    --footer-foreground: 0 0% 100%; 
+    --trust-orange: 25 80% 50%; /* HSL orange */
+  }
+
+  body {
+    @apply bg-white text-gray-900;
   }
 }
 
 @layer utilities {
-  .bg-footer {
-    background-color: hsl(var(--footer-background)) !important;
+  .bg-primary {
+    background-color: hsl(var(--primary-bg));
   }
 
-  .text-footer {
-    color: hsl(var(--footer-foreground)) !important;
+  .bg-trust-orange {
+    background-color: hsl(var(--trust-orange));
+  }
+
+  .text-trust-orange {
+    color: hsl(var(--trust-orange));
+  }
+
+  .hover-bg-light {
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  .animate-slideDown {
+    @apply transition-all duration-300 ease-out;
+    transform: translateY(-10%);
+    animation: slideDown 0.3s forwards;
+  }
+
+  @keyframes slideDown {
+    to {
+      transform: translateY(0%);
+    }
   }
 }
